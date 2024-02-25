@@ -1,0 +1,5 @@
+#button1, #paragraph, #heading {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}

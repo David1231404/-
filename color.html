@@ -1,0 +1,27 @@
+<!-- Создать страницу html. На странице должны быть: кнопка, абзац, заголовок. -->
+<!-- При нажатии на любой из этих объектов, надо поменять у них цвет текста, цвет фона и вывести в консоль их id. -->
+
+
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="color.js"></script>
+    <link href="style/color.css" rel="stylesheet">
+    <title>Document</title>
+<head>
+    <title>Buttons and Paragraphs</title>
+    <style>
+        #button1, #paragraph, #heading {
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading" onclick="changeColor(this)">где-то там</h1>
+    <button id="button1" onclick="changeColor(this)">что-то там</button>
+    <p id="paragraph" onclick="changeColor(this)">кто-то там</p>
+</body>
+</html> 
